@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+*{
+    font-family: "Jaldi", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    font-size: large;
+    
+    
+}
+body{
+    background-color:#E7E7E7;
+}
+.header-laranja{
+    background-color: #FB5E2C;
+    
+}
+
+header{
+    background-color: white;
+    color: #FB5E2C;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.none-container{
+    padding-top: 5%;
+    text-align: center;
+}
+
+.none-box{
+    text-align: center;
+    height: 60px;
+    color: #b9b9b9;
+    width: 100%;
+    max-width: 900px;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #aaaaaa;
+    border-radius: 30px;
+    font-size: 16px;
+}
+
+.barra-pag{
+    text-align: end;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.barra-pag>ul{
+    display: flex;
+    flex-direction: row;
+  
+    }
+
+.barra-pag ul li{
+    margin-right: 50px;
+    list-style: none;
+}
+.barra-pag :hover{
+    color: #FB5E2C;
+    transition: 0.5s;
+}
+.barra-pag a{
+    text-decoration: none ;
+    color: #FB5E2C;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+footer{
+    padding-top: 100%;
+    margin-top: 800px;
+    text-align: center;
+    padding: 20px 0;
+    background-color: white;
+}
+
+footer :hover{
+    color: lightgrey;
+    transition: 0.5s;
+}
+
+.footer-divider{
+    height: 4px;
+    background-color: #FB5E2C;
+    margin-bottom: 10px;
+    
+}
+
+.footer-links{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-links a{
+    text-decoration: none;
+    color: #FB5E2C;
+    padding: 10px 15px;
+    font-size: 16px;
+}
+
+#Cancelar{
+    color: #FB5E2C;
+    border: none;
+    background-color: #E7E7E7;
+    cursor: pointer;
+}
+
+

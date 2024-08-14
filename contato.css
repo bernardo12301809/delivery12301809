@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+*{
+    font-family: "Jaldi", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    font-size: medium;
+    
+    
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    
+    background-color: #f0f0f0;
+}
+
+.container {
+    gap: 200px;
+    display: flex;
+    margin-top: 200px;
+   margin-left: 500px;
+}
+
+.square {
+    width: 320px;
+    height: 400px;
+    background-color: #ffffff;
+    border: 2px solid #FB5E2C;
+    padding: 20px;
+    border-radius: 25px;
+    box-sizing: border-box;
+    align-items: center;
+
+    
+}
+
+p {
+    margin: 0;
+}
+.header-laranja{
+    background-color: #FB5E2C;
+    
+}
+
+header{
+    background-color: white;
+    color: #FB5E2C;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.footer{
+    padding-top: 100%;
+    margin-top: 570px;
+    text-align: center;
+    padding: 20px 0;
+    background-color: white;
+}
+
+footer :hover{
+    color: lightgrey;
+    transition: 0.5s;
+}
+
+ footer-divider{
+    height: 4px;
+    background-color: #FB5E2C;
+    margin-bottom: 10px;
+}
+
+.footer-links{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-links a{
+    text-decoration: none;
+    color: #FB5E2C;
+    padding: 10px 15px;
+    font-size: 16px;
+}
+
+.footer-links:hover{
+    color: lightgrey;
+    transition: 0.5s;
+}
+
+#Suporte{
+    color: #FB5E2C;
+    border: none;
+    background-color: #ffffff;
+    cursor: pointer;
+    font-size: small;
+}
+
+#clique{
+    margin-top: 60px;
+    font-size: small;
+}
+
+#Contatos{
+    font-size: large;
+    padding-left: 20%;
+}
+
+#emailtext{
+    padding-top: 20%;
+}
+
+
+
+
+.search-box{
+    color: #FB5E2C;
+    width: 100%;
+    max-width: 600px;
+    background-color: white;
+    padding: 10px;
+    border: 2px solid #FB5E2C;
+    border-radius: 20px;
+    font-size: 16px;
+}
+
+#Login{
+    font-size: large;
+    padding-left: 40%;
+}
+
+#enviar{
+    background-color: #FB5E2C;
+    color: white;
+    border-radius: 25px;
+    height: 35px;
+    width: 100px;
+    font-size: small;
+    border: none;
+    margin-top: 30px;
+    margin-left: 50px;
+}

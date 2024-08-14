@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+*{
+    font-family: "Jaldi", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    font-size: large;
+   
+    
+}
+body{
+    background-color:#E7E7E7;
+}
+.header-laranja{
+    background-color: #FB5E2C;
+    
+}
+
+header{
+    background-color: white;
+    color: #FB5E2C;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.none-container{
+    padding-top: 5%;
+    text-align: center;
+}
+
+.none-box{
+    text-align: center;
+    height: 60px;
+    color: #b9b9b9;
+    width: 100%;
+    max-width: 900px;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #aaaaaa;
+    border-radius: 30px;
+    font-size: 16px;
+}
+
+
+footer{
+    padding-top: 100%;
+    margin-top: 500px;
+    text-align: center;
+    padding: 20px 0;
+    background-color: white;
+}
+
+footer :hover{
+    color: lightgrey;
+    transition: 0.5s;
+}
+
+.footer-divider{
+    height: 4px;
+    background-color: #FB5E2C;
+    margin-bottom: 10px;
+    
+}
+
+.footer-links{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-links a{
+    text-decoration: none;
+    color: #FB5E2C;
+    padding: 10px 15px;
+    font-size: 16px;
+}
+
+
+
+.quadrado {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #FB5E2C;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: white;
+    margin-top: 200px;
+    margin-left: 200px;
+    font-size: large;
+}
+
